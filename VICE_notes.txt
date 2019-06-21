@@ -1,0 +1,99 @@
+VICE Notes
+==========
+
+build/
+	android/
+	beos/
+	macosx/
+	Makefile
+	Makefile.am
+	Makefile.in
+data/
+	C128/
+	C64/
+	C64DTV/
+	CBM-II/
+	common/
+	DRIVES/
+	fonts/
+	logos/
+	PET/
+	PLUS4/
+	PRINTER/
+	SCPU64/
+	VIC20/
+	Makefile
+	Makefile.am
+	Makefile.in
+doc/
+	building/
+	html/
+	readmes/
+m4/
+man/
+src/
+	arch/
+	buildtools/
+	c128/
+	c64/
+	c64dtv/
+	cbm2/
+	core/
+	crtc/
+	diag/
+	diskimage/
+	drive/
+	fileio/
+	fsdevice/
+	gfxoutputdrv/
+	hvsc/
+	hwsiddrv/
+	iecbus/
+	imagecontents/
+	iodrv/
+	joyport/
+	lib/
+	mididrv/
+	monitor/
+	parallel/
+	pet/
+	plus4/
+	printerdrv/
+	raster/
+	resid/
+	resid-dtv/
+	rs232drv/
+	rtc/
+	samplerdrv/
+	scpu64/
+	serial/
+	sid/
+	socketdrv/
+	sounddrv/
+	tape/
+	tapeport/
+	userport/
+	vdc/
+	vdrive/
+	vic20/
+	vicii/
+	viciisc/
+	viciivsid/
+	video/
+
+Folder Layout
+-------------
+
+Issues:
+-------
+
+'make' fails with:
+
+cp: './texinfo.tex' and 'texinfo.tex' are the same file
+Makefile:1114: recipe for target 'vice.pdf' failed
+make[2]: *** [vice.pdf] Error 1
+Makefile:728: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+Makefile:503: recipe for target 'all-recursive' failed
+make: *** [all-recursive] Error 1
+
