@@ -1,0 +1,1 @@
+PETSCII_SPACE	= #$20
